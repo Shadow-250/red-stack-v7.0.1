@@ -1,0 +1,27 @@
+CACHE MANIFEST
+
+CACHE:
+i18n.js
+icon120x120.png
+icon192x192.png
+icon64x64.png
+css/app.min.css
+css/app.min.less
+css/gridstack-extra.min.css
+css/gridstack.min.css
+js/app.min.js
+js/gridstack.jQueryUI.min.js
+js/gridstack.min.js
+js/gridstack.min.map
+js/lodash.min.js
+js/tinycolor-min.js
+socket.io/socket.io.js
+fonts/fontawesome-webfont.woff
+fonts/fontawesome-webfont.woff2
+fonts/weather-icons-lite.woff
+fonts/weather-icons-lite.woff2
+
+NETWORK:
+*
+
+# hash: 27721b78d6cb9ac90965ba5dc275e6092a8de066c4a8771daa74cd8300f196ba

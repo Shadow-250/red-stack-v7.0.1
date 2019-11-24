@@ -1,0 +1,9 @@
+{
+    "name": "red-stack-project",
+    "description": "A RED-Stack Project",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "red-stack-dashboard": "~2.17.1"
+    }
+}

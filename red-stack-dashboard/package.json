@@ -1,0 +1,123 @@
+{
+  "_from": "red-stack-dashboard@2.17.1",
+  "_id": "red-stack-dashboard@2.17.1",
+  "_inBundle": false,
+  "_integrity": "sha512-Qffw6p2ZV10PMDNPFXvuC9CKUu+vv6MMiYcXRSG62yS+4qk11zvAODIW1XelOw9X1H9k7q9E4v0f1iWtfSjL+w==",
+  "_location": "/red-stack-dashboard",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "red-stack-dashboard@2.17.1",
+    "name": "red-stack-dashboard",
+    "escapedName": "red-stack-dashboard",
+    "rawSpec": "2.17.1",
+    "saveSpec": null,
+    "fetchSpec": "2.17.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_shasum": "e029dcebb02efb0d1693fff3c8c7922213a623ad",
+  "_spec": "red-stack-dashboard@2.17.1",
+  "_where": "E:\\Red-Stack\\.red-stack",
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Hoàng Phụng"
+    }
+  ],
+  "dependencies": {
+    "compression": "^1.7.4",
+    "serve-static": "^1.14.1",
+    "socket.io": "^2.2.0"
+  },
+  "deprecated": false,
+  "description": "A set of dashboard nodes for RED-Stack",
+  "devDependencies": {
+    "angular": "~1.7.8",
+    "angular-animate": "~1.7.8",
+    "angular-aria": "~1.7.8",
+    "angular-chart.js": "^1.1.1",
+    "angular-material": "~1.1.20",
+    "angular-material-icons": "^0.7.1",
+    "angular-messages": "~1.7.8",
+    "angular-mocks": "~1.7.8",
+    "angular-route": "~1.7.8",
+    "angular-sanitize": "~1.7.8",
+    "angular-touch": "~1.7.8",
+    "angularjs-color-picker": "^3.4.8",
+    "chart.js": "~2.3.0",
+    "d3": "^3.5.17",
+    "font-awesome": "^4.7.0",
+    "gridstack": "^0.4.0",
+    "gulp": "^3.9.1",
+    "gulp-angular-templatecache": "~3.0.0",
+    "gulp-clean-css": "^4.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-eol": "^0.2.0",
+    "gulp-header": "^2.0.9",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-html-src": "^1.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^2.0.2",
+    "gulp-jscs": "^4.1.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-manifest": "^0.1.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "~3.0.2",
+    "gulp-util": "^3.0.8",
+    "jquery": "^3.4.1",
+    "jshint": "^2.10.1",
+    "justgage": "1.2.2",
+    "less": "~3.9.0",
+    "lodash": "^4.17.15",
+    "moment": "~2.24.0",
+    "sprintf-js": "^1.1.2",
+    "streamqueue": "~1.1.2",
+    "svg-morpheus": "^0.3.0",
+    "tinycolor2": "^1.4.1",
+    "weather-icons-lite": "^1.1.0",
+    "webfontloader": "^1.6.28"
+  },
+  "keywords": [
+    "red-stack"
+  ],
+  "license": "Apache-2.0",
+  "main": "none",
+  "name": "red-stack-dashboard",
+  "red-stack": {
+    "version": ">=0.14.0",
+    "nodes": {
+      "ui_base": "nodes/ui_base.js",
+      "ui_button": "nodes/ui_button.js",
+      "ui_dropdown": "nodes/ui_dropdown.js",
+      "ui_switch": "nodes/ui_switch.js",
+      "ui_slider": "nodes/ui_slider.js",
+      "ui_numeric": "nodes/ui_numeric.js",
+      "ui_text_input": "nodes/ui_text_input.js",
+      "ui_date_picker": "nodes/ui_date_picker.js",
+      "ui_colour_picker": "nodes/ui_colour_picker.js",
+      "ui_form": "nodes/ui_form.js",
+      "ui_text": "nodes/ui_text.js",
+      "ui_gauge": "nodes/ui_gauge.js",
+      "ui_chart": "nodes/ui_chart.js",
+      "ui_audio": "nodes/ui_audio.js",
+      "ui_toast": "nodes/ui_toast.js",
+      "ui_ui_control": "nodes/ui_ui_control.js",
+      "ui_template": "nodes/ui_template.js",
+      "ui_link": "nodes/ui_link.js",
+      "ui_tab": "nodes/ui_tab.js",
+      "ui_group": "nodes/ui_group.js",
+      "ui_spacer": "nodes/ui_spacer.js"
+    }
+  },
+  "scripts": {
+    "prepare": "node fixfa.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.17.1"
+}

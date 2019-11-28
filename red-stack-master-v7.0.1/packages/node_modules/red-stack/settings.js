@@ -20,7 +20,7 @@
 
 module.exports = {
     // the tcp port that the RED-Stack web server is listening on
-    uiPort: process.env.PORT || 1880,
+    uiPort: process.env.PORT || 1999,
 
     // By default, the RED-Stack UI accepts connections on all IPv4 interfaces.
     // To listen on all IPv6 addresses, set uiHost to "::",
@@ -88,7 +88,7 @@ module.exports = {
     // The following property can be used to specify an additional directory to scan.
     //nodesDir: '/home/nol/.red-stack/nodes',
 
-    // By default, the RED-Stack UI is available at http://localhost:1880/
+    // By default, the RED-Stack UI is available at http://localhost:1999/
     // The following property can be used to specify a different root path.
     // If set to false, this is disabled.
     //httpAdminRoot: '/admin',
@@ -105,7 +105,7 @@ module.exports = {
 
     // When httpAdminRoot is used to move the UI to a different root path, the
     // following property can be used to identify a directory of static content
-    // that should be served at http://localhost:1880/.
+    // that should be served at http://localhost:1999/.
     //httpStatic: '/home/nol/red-stack-static/',
 
     // The maximum size of HTTP request that will be accepted by the runtime api.

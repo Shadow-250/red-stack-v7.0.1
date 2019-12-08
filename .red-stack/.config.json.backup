@@ -5,46 +5,6 @@
    "version": "7.0.0",
    "local": false,
    "nodes": {
-    "inject": {
-     "name": "inject",
-     "types": [
-      "inject"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\common\\20-inject.js"
-    },
-    "debug": {
-     "name": "debug",
-     "types": [
-      "debug"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\common\\21-debug.js"
-    },
-    "complete": {
-     "name": "complete",
-     "types": [
-      "complete"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\common\\24-complete.js"
-    },
-    "catch": {
-     "name": "catch",
-     "types": [
-      "catch"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\common\\25-catch.js"
-    },
     "status": {
      "name": "status",
      "types": [
@@ -53,18 +13,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\common\\25-status.js"
-    },
-    "link": {
-     "name": "link",
-     "types": [
-      "link in",
-      "link out"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\common\\60-link.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/common/25-status.js"
     },
     "comment": {
      "name": "comment",
@@ -74,17 +23,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\common\\90-comment.js"
-    },
-    "unknown": {
-     "name": "unknown",
-     "types": [
-      "unknown"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\common\\98-unknown.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/common/90-comment.js"
     },
     "function": {
      "name": "function",
@@ -94,27 +33,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\function\\10-function.js"
-    },
-    "switch": {
-     "name": "switch",
-     "types": [
-      "switch"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\function\\10-switch.js"
-    },
-    "change": {
-     "name": "change",
-     "types": [
-      "change"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\function\\15-change.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/function/10-function.js"
     },
     "range": {
      "name": "range",
@@ -124,17 +43,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\function\\16-range.js"
-    },
-    "template": {
-     "name": "template",
-     "types": [
-      "template"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\function\\80-template.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/function/16-range.js"
     },
     "delay": {
      "name": "delay",
@@ -144,7 +53,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\function\\89-delay.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/function/89-delay.js"
     },
     "trigger": {
      "name": "trigger",
@@ -154,17 +63,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\function\\89-trigger.js"
-    },
-    "exec": {
-     "name": "exec",
-     "types": [
-      "exec"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\function\\90-exec.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/function/89-trigger.js"
     },
     "tls": {
      "name": "tls",
@@ -174,7 +73,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\network\\05-tls.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/network/05-tls.js"
     },
     "httpproxy": {
      "name": "httpproxy",
@@ -184,7 +83,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\network\\06-httpproxy.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/network/06-httpproxy.js"
     },
     "mqtt": {
      "name": "mqtt",
@@ -196,74 +95,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\network\\10-mqtt.js"
-    },
-    "httpin": {
-     "name": "httpin",
-     "types": [
-      "http in",
-      "http response"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\network\\21-httpin.js"
-    },
-    "httprequest": {
-     "name": "httprequest",
-     "types": [
-      "http request"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\network\\21-httprequest.js"
-    },
-    "websocket": {
-     "name": "websocket",
-     "types": [
-      "websocket in",
-      "websocket out",
-      "websocket-listener",
-      "websocket-client"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\network\\22-websocket.js"
-    },
-    "tcpin": {
-     "name": "tcpin",
-     "types": [
-      "tcp in",
-      "tcp out",
-      "tcp request"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\network\\31-tcpin.js"
-    },
-    "udp": {
-     "name": "udp",
-     "types": [
-      "udp in",
-      "udp out"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\network\\32-udp.js"
-    },
-    "CSV": {
-     "name": "CSV",
-     "types": [
-      "csv"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\parsers\\70-CSV.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/network/10-mqtt.js"
     },
     "HTML": {
      "name": "HTML",
@@ -273,7 +105,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\parsers\\70-HTML.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/parsers/70-HTML.js"
     },
     "JSON": {
      "name": "JSON",
@@ -283,7 +115,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\parsers\\70-JSON.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/parsers/70-JSON.js"
     },
     "XML": {
      "name": "XML",
@@ -293,17 +125,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\parsers\\70-XML.js"
-    },
-    "YAML": {
-     "name": "YAML",
-     "types": [
-      "yaml"
-     ],
-     "enabled": true,
-     "local": false,
-     "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\parsers\\70-YAML.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/parsers/70-XML.js"
     },
     "split": {
      "name": "split",
@@ -314,7 +136,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\sequence\\17-split.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/sequence/17-split.js"
     },
     "sort": {
      "name": "sort",
@@ -324,7 +146,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\sequence\\18-sort.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/sequence/18-sort.js"
     },
     "batch": {
      "name": "batch",
@@ -334,7 +156,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\sequence\\19-batch.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/sequence/19-batch.js"
     },
     "file": {
      "name": "file",
@@ -345,7 +167,7 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\storage\\10-file.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/storage/10-file.js"
     },
     "watch": {
      "name": "watch",
@@ -355,7 +177,112 @@
      "enabled": true,
      "local": false,
      "module": "red-stack",
-     "file": "E:\\Red-Stack\\red-stack-master-v7 - Copy\\packages\\node_modules\\@red-stack\\nodes\\core\\storage\\23-watch.js"
+     "file": "/media/creator/01D4F363807CA030/Red-Stack/red-stack-7.0.1/red-stack-master-v7.0.1/packages/node_modules/@red-stack/nodes/core/storage/23-watch.js"
+    }
+   }
+  },
+  "red-stack-dashboard": {
+   "name": "red-stack-dashboard",
+   "version": "1.0.0",
+   "local": true,
+   "nodes": {
+    "ui_base": {
+     "name": "ui_base",
+     "types": [],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_base.js"
+    },
+    "ui_button": {
+     "name": "ui_button",
+     "types": [
+      "ui_button"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_button.js"
+    },
+    "ui_switch": {
+     "name": "ui_switch",
+     "types": [],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_switch.js"
+    },
+    "ui_gauge": {
+     "name": "ui_gauge",
+     "types": [
+      "ui_gauge"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_gauge.js"
+    },
+    "ui_chart": {
+     "name": "ui_chart",
+     "types": [
+      "ui_chart"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_chart.js"
+    },
+    "ui_audio": {
+     "name": "ui_audio",
+     "types": [],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_audio.js"
+    },
+    "ui_ui_control": {
+     "name": "ui_ui_control",
+     "types": [
+      "ui_ui_control"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_ui_control.js"
+    },
+    "ui_link": {
+     "name": "ui_link",
+     "types": [],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_link.js"
+    },
+    "ui_tab": {
+     "name": "ui_tab",
+     "types": [
+      "ui_tab"
+     ],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_tab.js"
+    },
+    "ui_group": {
+     "name": "ui_group",
+     "types": [],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_group.js"
+    },
+    "ui_spacer": {
+     "name": "ui_spacer",
+     "types": [],
+     "enabled": true,
+     "local": true,
+     "module": "red-stack-dashboard",
+     "file": "/home/creator/.red-stack/node_modules/red-stack-dashboard/nodes/ui_spacer.js"
     }
    }
   }
@@ -372,7 +299,8 @@
      "view-node-show-label": true,
      "view-show-tips": true
     }
-   }
+   },
+   "menu-menu-item-palette": true
   }
  }
 }

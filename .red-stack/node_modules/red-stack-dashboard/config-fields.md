@@ -28,12 +28,6 @@ node to set msg.ui_control to JSON `{ "min":10, "max":50 }`
 |                       |spanGaps           |boolean    | n/a
 |                       |animation          |string     | (Note 1), {duration:1000, easing:"easeInOutSine"}
 |                       |options            |object     | (Note 2), {scales: {yAxes: [{ticks: {fontSize: 20}}]}}
-|ui_colour_picker       |format             |string     | on refresh
-|                       |showPicker         |boolean    | on refresh
-|                       |showSwatch         |boolean    | on refresh
-|                       |showValue          |boolean    | on refresh
-|                       |showAlpha          |boolean    | on refresh
-|                       |showLightness      |boolean    | on refresh
 |ui_dropdown            |place              |string     |"placeholder text"
 |                       |options            |array      |[{"label":"foo","value":"0","type":"str"}]
 |ui_gauge               |gtype              |string     |"gage", "donut", "compass", "wave"
@@ -43,23 +37,11 @@ node to set msg.ui_control to JSON `{ "min":10, "max":50 }`
 |                       |max                |number     |&nbsp;
 |                       |colors             |array      |["blue","#00ff00","#f00"]
 |                       |options            |object     |(see Note 3 below)
-|ui_numeric             |min                |number     |&nbsp;
-|                       |max                |number     |&nbsp;
-|                       |step               |number     |&nbsp;
-|                       |format             |string     |"{{value}}"
-|ui_slider              |min                |number     |&nbsp;
-|                       |max                |number     |&nbsp;
-|                       |step               |number     |&nbsp;
 |ui_switch              |onicon             |string     | all or nothing
 |                       |officon            |string     | all or nothing
 |                       |oncolor            |string     | all or nothing
 |                       |offcolor           |string     | all or nothing
-|ui_template            |format             |string     | the script
-|                       |templateScope      |string     | "local" or "global"
-|ui_text                |format             |string     |"{{value}}"
-|                       |layout             |string     | "row-left", "row-right", etc
-|ui_text_input          |mode               |string     | "text", "email", "password", "color"
-|                       |delay              |number     |&nbsp;
+
 
 **Notes**:
 
